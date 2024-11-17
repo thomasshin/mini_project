@@ -11,7 +11,7 @@ The evaluation employs the OSworld benchmark (Xie et al., 2024) to assess both b
 The evaluation metric, drawn from OSWorld (Xie et al., 2024), is based on the success rate for each domain and the overall average.
 
 ## Fine-tuning
-To start fine-tuning, please login to huggingface-cli using your huggingface token, then run 
+To start fine-tuning, please login to huggingface-cli using your huggingface token, download test set from Mind2Web github repo, then run 
 ```
 python finetune/finetune.py
 ```
