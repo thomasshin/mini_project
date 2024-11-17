@@ -61,9 +61,9 @@ def preprocess_data(examples):
 
 def load_data():
     dataset_train = load_dataset("osunlp/Mind2Web")
-    dataset_test_domain = load_dataset('json', data_files='./data/test_domain/*.json')
-    dataset_test_task = load_dataset('json', data_files='./data/test_task/*.json')
-    dataset_test_website = load_dataset('json', data_files='./data/test_website/*.json')
+    dataset_test_domain = load_dataset('json', data_files='./test_domain/*.json')
+    dataset_test_task = load_dataset('json', data_files='./test_task/*.json')
+    dataset_test_website = load_dataset('json', data_files='./test_website/*.json')
     return dataset_train, dataset_test_domain, dataset_test_task, dataset_test_website
 
 def tokenize_data(dataset_train, dataset_test_domain, dataset_test_task, dataset_test_website):
