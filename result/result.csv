@@ -1,0 +1,12 @@
+,Llama-3.2-1B-Instruct(Baseline),Llama-3.2-1B-Instruct(Finetune),Llama-3.2-1B-Instruct(Finetune)
+Calc,0.00%,0.00%,0.00%
+Imp,6.52%,2.17%,2.17%
+Writer,4.35%,4.35%,4.35%
+VLC,6.53%,6.53%,6.53%
+VSCode,0.00%,0.00%,0.00%
+OS,4.17%,4.17%,4.17%
+Thunderbird,0.00%,0.00%,0.00%
+GIMP,0.00%,0.00%,0.00%
+Chrome,7.14%,7.14%,7.14%
+Multiapps,2.12%,0.83%,2.12%
+Overall,2.80%,1.84%,2.16%
