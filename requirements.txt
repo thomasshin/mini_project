@@ -60,7 +60,6 @@ debugpy==1.6.7
 decorator==5.1.1
 defusedxml==0.7.1
 Deprecated==1.2.14
-desktop_env @ file:///Users/shindongchan/Documents/GitHub/OSWorld
 dill==0.3.6
 distlib==0.3.6
 distro==1.9.0
