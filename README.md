@@ -11,7 +11,20 @@ The evaluation employs the OSworld benchmark (Xie et al., 2024) to assess both b
 The evaluation metric, drawn from OSWorld (Xie et al., 2024), is based on the success rate for each domain and the overall average.
 
 ## Fine-tuning
-To start fine-tuning, please login to huggingface-cli using your huggingface token, download test set from Mind2Web github repo, then run 
+To start fine-tuning, please clone this repository and `cd` into it. Then, install the dependencies listed in `requirements.txt`. Please login to huggingface-cli using your huggingface token, download test set from Mind2Web github repo, then run 
 ```
+#Clone the mini_project repository
+git clone https://github.com/thomasshin/mini_project.git
+
+#Change directory to the cloned repository
+cd mini_project
+
+#Install required dependencies
+pip install -r requirements.txt
+
+#Login to huggingface-cli
+huggingface-cli login
+
+#Run finetune.py
 python finetune/finetune.py
 ```
